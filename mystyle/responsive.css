@@ -1,0 +1,898 @@
+@media (max-width:1024px) {
+	.full_length {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+  
+	.nav_expand {
+		display: block !important;
+		background-color: #e1eaf4;
+		width: 100%;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		line-height: 50px;
+	}
+  
+	.header-flex .nav-btn {
+		padding-bottom: 30px;
+	}
+  
+	.header-flex .nav-btn button {
+		width: 40%;
+		padding: 10px 0px;
+		background-color: #4788ee;
+		color: #FFFFFF;
+		transition: all 1.2s;
+	}
+  
+	.header-flex .nav-btn button:hover {
+		background-color: #ffffff;
+		color: #181E40;
+	}
+  
+	.first_cross {
+		top: 13px !important;
+		right: 7px !important;
+		transform: rotate(44deg) translateX(5px);
+		transition: all 0.8s;
+	}
+  
+	.second_cross {
+		top: 14px !important;
+		right: 1px !important;
+		transform: rotate(131deg) translateX(4px);
+		transition: all 0.8s;
+	}
+  
+	.third_cross {
+		position: absolute;
+		transition: all 0.8s;
+		top: -8px !important;
+	}
+  }
+
+@media (max-width:320px){
+	.header .header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+	/* header .header-flex{
+		display: block;
+	} */
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner .smart_main .best_business{
+		width: 100%;
+	}
+	.best_business .heading_1{
+		font-size: 30px;
+	}
+
+	.services .contain{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+	}
+	.business{
+		padding: 0px;
+		overflow: hidden;
+	}
+	.business .your_business{
+		width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+	}
+	.perfect_solution .grow_font{
+		text-align: center;
+	}
+	.perfect_solution .perfect_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.solution .para_1{
+		text-align: center;
+	}
+	.business .your_business_1{
+		width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+	}
+	.package .package_font{
+		text-align: center;
+	}
+	.package .customer_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.package .lorem_font{
+		text-align: center;
+	}
+	.package .seen_font{
+		margin-left: 15%;
+	}
+	.business_btn{
+		text-align: center;
+	}
+
+	.choice_us .our_value{
+		font-size: 30px;
+	}
+	.business_value{
+		padding: 10px;
+	}
+	.business_value .line_box{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    width: 100%;
+	}
+	.specialist .seo_service{
+		width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+	}
+	.get_organic .organic_text{
+		text-align: center;
+	}
+	.get_organic .seo_service_text{
+		font-size: 30px;
+		text-align: center;
+	}
+	.get_organic .service_text{
+		text-align: center;
+	}
+	.get_organic .check_box{
+		margin-left: 12%;
+	}
+	.img_2{
+		width: 300px;
+	}
+
+	.best_team .best_team_text{
+		font-size: 30px;
+	}
+	.team_succes{
+		width: 100%;
+		height: auto;
+	}
+	.team_succes .blank_boxes{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+	}
+
+	.product_we_offer{
+		margin-top: 60px;
+    overflow: hidden;
+	}
+
+	.question .frequently {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .owl-dots{
+  	margin-left: 30px;
+  	text-align: left;
+  }
+  .partner .asked_text{
+  	text-align: center;
+  }
+
+  .partner .clients_text{
+  	text-align: center;
+  	font-size: 30px;
+  }
+  .partner .partner_text{
+  	text-align: center;
+  }
+  .footer .attach_footer{
+  	width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+	#myBtn{
+		position: fixed;
+    bottom: 20px;
+    right: 30px;
+	}
+}
+.nav-bar{
+	display: none;
+}
+
+@media (min-width:321px) and (max-width:480px){
+	.header .header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+	/* header .header-flex{
+		display: block;
+	} */
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner .smart_main .best_business{
+		width: 100%;
+	}
+	.best_business .heading_1{
+		font-size: 30px;
+	}
+
+	.services .contain{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+	}
+	.business{
+		padding: 10px;
+		overflow: hidden;
+	}
+	.business .your_business{
+		width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+	}
+	.perfect_solution .grow_font{
+		text-align: center;
+	}
+	.perfect_solution .perfect_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.solution .para_1{
+		text-align: center;
+	}
+	.business .your_business_1{
+		width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+	}
+	.package .package_font{
+		text-align: center;
+	}
+	.package .customer_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.package .lorem_font{
+		text-align: center;
+	}
+	.package .seen_font{
+		margin-left: 28%;
+	}
+	.business_btn{
+		text-align: center;
+	}
+
+	.choice_us .our_value{
+		font-size: 30px;
+	}
+	.business_value{
+		padding: 10px;
+	}
+	.business_value .line_box{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    width: 100%;
+	}
+	.specialist .seo_service{
+		width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+	}
+	.get_organic .organic_text{
+		text-align: center;
+	}
+	.get_organic .seo_service_text{
+		font-size: 30px;
+		text-align: center;
+	}
+	.get_organic .service_text{
+		text-align: center;
+	}
+	.get_organic .check_box{
+		margin-left: 28%;
+	}
+	.img_2{
+		width: 400px;
+	}
+
+	.best_team .best_team_text{
+		font-size: 30px;
+	}
+	.team_succes{
+		width: 100%;
+		height: auto;
+	}
+	.team_succes .blank_boxes{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+	}
+
+	.product_we_offer{
+		margin-top: 60px;
+    overflow: hidden;
+	}
+
+	.question .frequently {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .owl-dots{
+  	margin-left: 30%;
+  	text-align: left;
+  }
+  .partner .asked_text{
+  	text-align: center;
+  }
+
+  .partner .clients_text{
+  	text-align: center;
+  	font-size: 30px;
+  }
+  .partner .partner_text{
+  	text-align: center;
+  }
+  .footer .attach_footer{
+  	width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+	#myBtn{
+		position: fixed;
+    bottom: 10px;
+    right: 10px;
+	}
+}
+
+@media (min-width:480px) and (max-width:680px){
+	.header .header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+	header .header-flex{
+		/* display: none; */
+	}
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner .smart_main .best_business{
+		width: 100%;
+	}
+	.best_business .heading_1{
+		font-size: 30px;
+	}
+
+	.services .contain{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+	}
+	.business{
+		padding: 10px;
+		overflow: hidden;
+	}
+	.business .your_business{
+		width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+	}
+	.perfect_solution .grow_font{
+		text-align: center;
+	}
+	.perfect_solution .perfect_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.solution .para_1{
+		text-align: center;
+	}
+	.business .your_business_1{
+		width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+	}
+	.package .package_font{
+		text-align: center;
+	}
+	.package .customer_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.package .lorem_font{
+		text-align: center;
+	}
+	.package .seen_font{
+		margin-left: 28%;
+	}
+	.business_btn{
+		text-align: center;
+	}
+
+	.choice_us .our_value{
+		font-size: 30px;
+	}
+	.business_value{
+		padding: 10px;
+	}
+	.business_value .line_box{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    width: 100%;
+	}
+	.specialist .seo_service{
+		width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+	}
+	.get_organic .organic_text{
+		text-align: center;
+	}
+	.get_organic .seo_service_text{
+		font-size: 30px;
+		text-align: center;
+	}
+	.get_organic .service_text{
+		text-align: center;
+	}
+	.get_organic .check_box{
+		margin-left: 28%;
+	}
+	.img_2{
+		width: 400px;
+	}
+
+	.best_team .best_team_text{
+		font-size: 30px;
+	}
+	.team_succes{
+		width: 100%;
+		height: auto;
+	}
+	.team_succes .blank_boxes{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+	}
+
+	.product_we_offer{
+		margin-top: 60px;
+    overflow: hidden;
+	}
+
+	.question .frequently {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .owl-dots{
+  	margin-left: 30%;
+  	text-align: left;
+  }
+  .partner .asked_text{
+  	text-align: center;
+  }
+
+  .partner .clients_text{
+  	text-align: center;
+  	font-size: 30px;
+  }
+  .partner .partner_text{
+  	text-align: center;
+  }
+  .footer .attach_footer{
+  	width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+	#myBtn{
+		position: fixed;
+    bottom: 10px;
+    right: 10px;
+	}
+}
+
+@media (min-width:680px) and (max-width:767px){
+	.header .header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+	/* header .header-flex{
+		display: block;
+	} */
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.smart_partner .smart_main .best_business{
+		width: 100%;
+	}
+	.best_business .heading_1{
+		font-size: 30px;
+	}
+
+	.services .contain{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+	}
+	.business{
+		padding: 10px;
+		overflow: hidden;
+	}
+	.business .your_business{
+		width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+	}
+	.perfect_solution .grow_font{
+		text-align: center;
+	}
+	.perfect_solution .perfect_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.solution .para_1{
+		text-align: center;
+	}
+	.business .your_business_1{
+		width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+	}
+	.package .package_font{
+		text-align: center;
+	}
+	.package .customer_font{
+		font-size: 30px;
+		text-align: center;
+	}
+	.package .lorem_font{
+		text-align: center;
+	}
+	.package .seen_font{
+		margin-left: 28%;
+	}
+	.business_btn{
+		text-align: center;
+	}
+
+	.choice_us .our_value{
+		font-size: 30px;
+	}
+	.business_value{
+		padding: 10px;
+	}
+	.business_value .line_box{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    width: 100%;
+	}
+	.specialist .seo_service{
+		width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+	}
+	.get_organic .organic_text{
+		text-align: center;
+	}
+	.get_organic .seo_service_text{
+		font-size: 30px;
+		text-align: center;
+	}
+	.get_organic .service_text{
+		text-align: center;
+	}
+	.get_organic .check_box{
+		margin-left: 28%;
+	}
+	.img_2{
+		width: 500px;
+	}
+
+	.best_team .best_team_text{
+		font-size: 30px;
+	}
+	.team_succes{
+		width: 100%;
+		height: auto;
+	}
+	.team_succes .blank_boxes{
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+	}
+
+	.product_we_offer{
+		margin-top: 60px;
+    overflow: hidden;
+	}
+
+	.question .frequently {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .owl-dots{
+  	margin-left: 30%;
+  	text-align: left;
+  }
+  .partner .asked_text{
+  	text-align: center;
+  }
+
+  .partner .clients_text{
+  	text-align: center;
+  	font-size: 30px;
+  }
+  .partner .partner_text{
+  	text-align: center;
+  }
+  .footer .attach_footer{
+  	width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+	#myBtn{
+		position: fixed;
+    bottom: 10px;
+    right: 10px;
+	}
+}
+
+@media (min-width:767px) and (max-width:1024px){
+	.header .header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-flex .nav-btn button {
+        width: 65% !important;
+        height: auto;
+    }
+
+    header .header-flex {
+        padding: 12px 10px;
+    }
+
+    .header-flex .bars {
+        display: block;
+    }
+	/* header .header-flex{
+		display: block;
+	} */
+	.smart_partner{
+		width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+	}
+	.team_succes .blank_boxes{
+		display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+	}
+	.blank_boxes .blank_box_1{
+		width: 300px;
+		height: 280px;
+	}
+	.blank_boxes .blank_box_2{
+		width: 300px;
+		height: 280px;
+	}
+	.blank_boxes .blank_box_3{
+		width: 300px;
+		height: 280px;
+	}
+}
